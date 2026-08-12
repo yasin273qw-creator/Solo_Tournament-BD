@@ -19,7 +19,11 @@
 <section id="join" class="panel">
  <h2>📝 PLAYER REGISTRATION</h2>
  <p class="hint">সঠিক তথ্য দিন। Payment করার পর Transaction ID ও screenshot জমা দিন। Match time ও room information WhatsApp-এ জানানো হবে।</p>
- <form id="form">
+ <form id="form" action="https://formsubmit.co/yasin273qw@gmail.com" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="_subject" value="Solo Tournament BD — New Registration">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="https://yasin273qw-creator.github.io/Solo_Tournament-BD/">
   <label>Player Name</label><input name="name" required placeholder="আপনার নাম">
   <label>Free Fire UID</label><input name="uid" required placeholder="Free Fire UID" inputmode="numeric">
   <label>In-Game Name</label><input name="ign" required placeholder="Game Name">
@@ -32,7 +36,7 @@
   </div>
   <label>Payment Method</label><select name="method" required><option value="">Select</option><option>bKash</option><option>Nagad</option></select>
   <label>Transaction ID</label><input name="trx" required placeholder="Transaction ID">
-  <label>Payment Screenshot</label><input id="shot" type="file" accept="image/*" required>
+  <label>Payment Screenshot</label><input id="shot" name="Payment Screenshot" type="file" accept="image/*" required>
   <small>📸 Screenshot আপনার payment যাচাই করার জন্য জমা হবে।</small>
   <button class="cta submit" type="submit">SUBMIT REQUEST</button>
  </form>
